@@ -1,0 +1,13 @@
+.formDrawerUser {
+    margin-top: 50px;
+}
+.formDrawerUser .ant-form-item{
+    margin-top: 40px;
+}
+.formDrawerUser .ant-col.ant-form-item-control {
+    margin-left: 50px;
+}
+.formDrawerUser .ant-col.ant-form-item-label {
+    float: left;
+    width: 60px;
+}
