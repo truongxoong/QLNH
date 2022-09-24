@@ -9,6 +9,7 @@ import User from "./page/user";
 import Dashboard from "./page/dashboard";
 import Static from "./page/static";
 import Table from "./page/table";
+import DetailT from "./page/tableDetail";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/user" element={<User />} />
           <Route path="/static" element={<Static />} />
           <Route path="/table" element={<Table />} />
+          <Route path="/table/:id" element={<DetailT />} />
         </Route>
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<LoginFireBase />} />
